@@ -1,1 +1,1 @@
-# ShadersReflectionToCode
+HLSL and C++ code generator from shader resources description
