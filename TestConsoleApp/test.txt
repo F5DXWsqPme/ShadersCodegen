@@ -1,0 +1,29 @@
+﻿struct Type1
+{
+    float3 a;
+};
+
+struct Type2
+{
+    float x;
+    int y;
+    Type1 z;
+};
+
+TEX<float4> noiseTexture1;
+UAV<int> dstBuffer;
+UAV<Type2> dstBuffer1;
+SRV<float4> srcBuffer;
+SRV<float> a;
+SRV<Type1> b2;
+SRV<uint2> b1;
+
+enum Enum1
+{
+    E1,
+    E2,
+    E3,
+    E4,
+    E5,
+};
+
